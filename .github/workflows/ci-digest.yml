@@ -1,6 +1,6 @@
 # Weekly digest of failed CI runs on main across the huishouden org. GitHub already emails whoever
 # pushed a failing commit; this catches what slipped by (scheduled runs, bot pushes, a missed email).
-# Opens one issue, which GitHub emails to watchers of this repo, only when something failed.
+# Opens one issue, assigned (so emailed) to the maintainer, only when something failed.
 name: ci-digest
 
 on:
@@ -39,6 +39,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
+          ASSIGNEE: piekstra # an assignment is emailed, whatever the watch settings
         run: |
           {
             echo "$count failed run(s) on \`main\` since $since."
@@ -49,4 +50,4 @@ jobs:
             echo
             echo "Close this issue once each is fixed or explained."
           } > body.md
-          gh issue create --repo "$REPO" --title "CI digest: $count failed run(s) on main since $since" --body-file body.md
+          gh issue create --repo "$REPO" --assignee "$ASSIGNEE" --title "CI digest: $count failed run(s) on main since $since" --body-file body.md
