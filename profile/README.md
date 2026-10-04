@@ -15,3 +15,7 @@ everyone's phone. *Huishouden* is Dutch for "household".
 Free to use, for any household: sign in with Google, start a household, invite the people you live
 with. Everything is built on one shared [kit](https://github.com/huishouden/pwa-kit), so the apps
 look and work alike.
+
+The code is source available under [PolyForm Shield 1.0.0](https://polyformproject.org/licenses/shield/1.0.0):
+use, study and modify it for any purpose except providing a product that competes with Huishouden.
+Huishouden and its logo are the project's brand; please don't use them for other products.
