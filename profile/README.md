@@ -27,7 +27,7 @@ people you live with. In English, Spanish and Dutch, light or dark.
 | | |
 |---|---|
 | [Connector](https://github.com/huishouden/connector) | Use Huishouden from your own AI assistant (Claude, ChatGPT, Gemini CLI) |
-| [Calendar](https://github.com/huishouden/calendar) | Your household in your own calendar, and card alerts read from your inbox |
+| [Calendar](https://github.com/huishouden/calendar) | Your household in your own calendar, card alerts read from your inbox, and product names read from photos for Groceries |
 | [Notify](https://github.com/huishouden/notify) | Reminders as notifications on your devices |
 
 ## Building it
