@@ -39,6 +39,6 @@ only by its members and only as their role allows; helpers and kids see less. Se
 
 ## License
 
-The code is licensed under [PolyForm Shield 1.0.0](https://polyformproject.org/licenses/shield/1.0.0):
-use, study and modify it for any purpose except providing a product that competes with Huishouden.
+The code is licensed under [PolyForm Shield 1.0.0](https://polyformproject.org/licenses/shield/1.0.0),
+which permits any use except providing a product that competes with Huishouden.
 Huishouden and its logo are the project's brand; please don't use them for other products.
